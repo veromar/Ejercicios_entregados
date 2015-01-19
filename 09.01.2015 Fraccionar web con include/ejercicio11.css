@@ -1,0 +1,128 @@
+/*Ejercicio 11*/
+body{
+	width: 900px;
+	margin: auto;
+	background-image: url('imagenes/fondo.gif');
+	background-repeat: repeat-x;
+	background-color: #F2F5FE;
+	font:normal 14px Verdana, Geneva, Sans Serif;
+}
+header{
+	width:100%;
+	float:right;
+	padding:0.5em;
+	background-image: url('imagenes/cabecera.png');
+	background-repeat: no-repeat;
+	color:white;
+}
+#identificador{
+	float:left;
+	width:300px;
+	height:100px;
+}
+#busqueda{
+	float:right;
+	width:250px;
+	height: 100px;
+	padding-top: 5px;
+}
+nav{
+	width:896px;
+	float:right;
+	height:30px;
+	border:2px solid white;
+	background-color: #C7D6D1;
+	padding:0.5em;
+}
+footer{
+	width:100%;
+	clear:both;
+}
+aside{
+	float:left;
+	width: 245px;
+	margin-right: 5px;
+	background-image: url('imagenes/flateral.gif');
+	background-repeat: repeat;
+}
+#principal{
+	float:left;
+	width: 400px;
+	clear: none;
+	background-image: url('imagenes/fprincipal.jpg');
+	
+}
+#lateralderecho{
+	float: right;
+	width: 243px;
+	margin-left: 5px;
+	background-image: url('imagenes/fderecho.gif');
+	border:1px solid #999999;
+}
+nav ul{
+	display: block;
+	list-style-type:none;
+	margin:auto;
+	width: 80%;
+}
+nav li{
+	display: inline;
+	float: left;
+	height: 25px;
+	width:120px;
+	font: 18px Verdana;
+}
+nav li a{
+	text-decoration: none;
+	padding: 20px;
+	color:#DC8E0E;
+}
+nav ul li a:hover{
+	background-image: url('imagenes/orange_bullet.gif');
+	background-position: left;
+	background-repeat: no-repeat;
+	color:#e7d218;
+}
+article{
+	background-image: url('imagenes/farticulo.jpg');
+	padding: 20px;
+	background-repeat: no-repeat;
+}
+article h2{
+	background-color:#D2DEFB;
+	color:#990000;
+	padding:10px;
+	margin:0px -10px;
+}
+#noticias, #enlaces, #publicidad{
+	background-image: url('imagenes/fnoticias.gif');
+	background-repeat: no-repeat;
+	padding:5px;
+	border-right: 1px solid grey;
+	border-bottom:1px solid grey;
+}
+h3{
+	font-size: 150%;
+	font-weight: bold;
+	background-image: url('imagenes/ftitulos.gif');
+	padding:10px;
+	text-align: center;
+}
+article img{
+	float:left;
+	margin:5px;
+}
+#lateralderecho h2{
+	color:white;
+	text-decoration: underline;
+	text-align: center;
+}
+footer{
+	width:900px;
+	position: fixed;
+	border-bottom: 1px solid blue;
+	border-top: 1px solid blue;
+	bottom:0px;
+	background-color: #FDF4B5;
+	text-align: center;
+}
